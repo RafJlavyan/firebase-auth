@@ -1,38 +1,76 @@
-.App {
+.account-picture {
+  width: 212px;
+  height: 252px;
+  border-radius: 50%;
+}
+
+.link {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+form>div {
+  margin: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: black;
+  padding: 20px;
+}
+
+nav * {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.gallery {
+  background-color: lightgray;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-result-item {
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-result-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 20px;
 }
