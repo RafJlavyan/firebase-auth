@@ -1,0 +1,11 @@
+{
+  "git.allowForcePush": true,
+  "search.useParentIgnoreFiles": false,
+  "search.useGlobalIgnoreFiles": false,
+  "explorer.excludeGitIgnore": false,
+  "git.allowNoVerifyCommit": false,
+  "git.alwaysShowStagedChangesResourceGroup": false,
+  "git.alwaysSignOff": false,
+  "git.autofetch": false,
+  "git.branchProtectionPrompt": "alwaysPrompt"
+}
